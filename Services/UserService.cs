@@ -76,7 +76,6 @@ namespace Web_API_Client.Services
 
         public IRestResponse PostUser(DataResponse res)
         {
-            res.createdDate = "";
             res.enabled = true;
             string JsonResponse = JsonSerializer.Serialize<DataResponse>(res);
 

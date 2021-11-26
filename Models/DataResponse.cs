@@ -5,7 +5,7 @@
         public string? email { get; set; }
         public string name { get; set; }
         public int age { get; set; }
-        public string createdDate { get; set; }
+        public DateTime createdDate { get; set; } = DateTime.Now;
         public bool enabled { get; set; }
     }
 }
